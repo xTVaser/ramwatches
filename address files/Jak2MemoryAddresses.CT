@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>38</ID>
+      <Description>"Animations / Movement"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>0080FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>3495</ID>
+          <Description>"Ground Flag "</Description>
+          <LastState Value="??" Activated="0" RealAddress="201978A0"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>201978A0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2106</ID>
+          <Description>"Jak Run Animation 1"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20128184"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20128184</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2107</ID>
+          <Description>"Jak Run Animation 2"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20128204"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20128204</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2570</ID>
+          <Description>"Jak Stand Still Animation"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2019B3A4"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2019B3A4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>37</ID>
+          <Description>"Jak Standing Animation"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20350CEC"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20350CEC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2615</ID>
+          <Description>"Jetboard Spinning Cancel"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20350CD8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20350CD8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>981</ID>
+          <Description>"another direction tracker"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2019799C"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2019799C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>975</ID>
+          <Description>"jak's direction, snapping?"</Description>
+          <LastState Value="??" Activated="0" RealAddress="201977F4"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>201977F4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>979</ID>
+          <Description>"jaks direction?"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20197994"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20197994</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1953</ID>
+          <Description>"running animation state"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2019B3E4"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2019B3E4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2995</ID>
+          <Description>"rotation flag for jetboard"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2019DA34"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2019DA34</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2993</ID>
+          <Description>"jetboard rotation as well"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2019D604"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2019D604</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2994</ID>
+          <Description>"sideflip stored"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2019D608"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2019D608</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3364</ID>
+          <Description>"dynamic text"</Description>
+          <LastState Activated="0" RealAddress="20679590"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>25</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>20679590</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3365</ID>
+          <Description>"dynamic text"</Description>
+          <LastState Activated="0" RealAddress="206795E0"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>25</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>206795E0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3366</ID>
+          <Description>"dynamic text"</Description>
+          <LastState Activated="0" RealAddress="20679630"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>25</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>20679630</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3367</ID>
+          <Description>"dynamic text"</Description>
+          <LastState Activated="0" RealAddress="20679680"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>25</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>20679680</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3488</ID>
+          <Description>"lots of animations"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20021A88"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20021A88</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3493</ID>
+          <Description>"gotta go fast 0"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2019D998"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2019D998</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>51</ID>
+      <Description>"Camera"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>0080FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>2619</ID>
+          <Description>"0 = free cam mode, ish? "</Description>
+          <LastState Value="??" Activated="0" RealAddress="201A8F00"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>201A8F00</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"Lock Camera"</Description>
+          <Options moBindActivation="1"/>
+          <LastState Value="??" Activated="0" RealAddress="201A64B0"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>201A64B0</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>24</ID>
+              <Description>"Camera Controls"</Description>
+              <LastState Value="??" Activated="0" RealAddress="201A64C8"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>201A64C8</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>25</ID>
+              <Description>"Camera Controls"</Description>
+              <LastState Value="??" Activated="0" RealAddress="201A64CC"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>201A64CC</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2996</ID>
+          <Description>"freecam"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20197358"/>
+          <Color>80000008</Color>
+          <VariableType>Double</VariableType>
+          <Address>20197358</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2976</ID>
+      <Description>"Checkpoints"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>808000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>92</ID>
+          <Description>"checkpoint / reset tracker"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622FA0"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20622FA0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>730</ID>
+          <Description>"updates when i change the why 134/135"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622FF8"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>20622FF8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>729</ID>
+          <Description>"why 133/134/135"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622FA2"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20622FA2</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2968</ID>
+      <Description>"Debug / Game Options"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>C080FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>3347</ID>
+          <Description>"flashes game logo"</Description>
+          <LastState Value="??" Activated="0" RealAddress="208269EC"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>208269EC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3348</ID>
+          <Description>"letterboxing"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20826DD5"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20826DD5</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3349</ID>
+          <Description>"removes minimap"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20826DD4"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20826DD4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3747</ID>
+          <Description>"lots of bytes after here to control what is visible or not"</Description>
+          <LastState Value="??" Activated="0" RealAddress="208D6FF8"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>208D6FF8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3354</ID>
+          <Description>"lighting bytes behind here"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2082A2EA"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2082A2EA</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3355</ID>
+          <Description>"end of video bytes "</Description>
+          <LastState Value="??" Activated="0" RealAddress="2082A307"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2082A307</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3356</ID>
+          <Description>"left off FF filling"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20829008"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20829008</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3357</ID>
+          <Description>"fovbyte"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20827600"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20827600</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3358</ID>
+          <Description>"camera rotation or something"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20827670"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20827670</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3359</ID>
+          <Description>"camera down tilt"</Description>
+          <LastState Value="??" Activated="0" RealAddress="208276C8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>208276C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3360</ID>
+          <Description>"camera up tilt"</Description>
+          <LastState Value="??" Activated="0" RealAddress="208276CC"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>208276CC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3362</ID>
+          <Description>"restarts city music"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20826A99"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20826A99</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3370</ID>
+          <Description>"144 = game normal speed maybe?"</Description>
+          <LastState Value="??" Activated="0" RealAddress="209A070F"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>209A070F</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3350</ID>
+          <Description>"flahes scren"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20826E2C"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20826E2C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3351</ID>
+          <Description>"camera thing"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2082705B"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2082705B</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3352</ID>
+          <Description>"camera thing 2"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2082705F"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2082705F</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3371</ID>
+          <Description>"jetboard wind, first nibble = flag"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2098C444"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2098C444</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3744</ID>
+          <Description>"sfx level"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20826E80"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20826E80</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3739</ID>
+          <Description>"aspect ratio 2bytes"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20826E10"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20826E10</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"Hi-Scores"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>0000FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>56</ID>
+          <Description>"Blaster Gun 1st Place Score"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803D40"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803D40</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>62</ID>
+          <Description>"Class 1 Race 1st Place"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803E00"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803E00</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>67</ID>
+          <Description>"Class 1 Reverse 1st Place"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803EA0"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803EA0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>63</ID>
+          <Description>"Class 2 Race 1st Place"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803E20"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803E20</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>68</ID>
+          <Description>"Class 2 Reverse 1st Place"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803EC0"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803EC0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>64</ID>
+          <Description>"Class 3 Race 1st Place"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803E40"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803E40</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>69</ID>
+          <Description>"Class 3 Reverse 1st Place"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803EE0"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803EE0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>66</ID>
+          <Description>"Erol Race 1st Place"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803E80"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803E80</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>61</ID>
+          <Description>"Jetboard 1st Place"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803DE0"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803DE0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>60</ID>
+          <Description>"Metal Head Mash 1st Place"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803DC0"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803DC0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>59</ID>
+          <Description>"Onin's Game 1st Place"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803DA0"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803DA0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>58</ID>
+          <Description>"Peacemaker 1st Place Score"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803D80"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803D80</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>65</ID>
+          <Description>"Port Race 1st Place"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803E60"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803E60</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>55</ID>
+          <Description>"Scatter Gun 1st Place Score"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803D20"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803D20</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>57</ID>
+          <Description>"Vulcan Fury 1st Place Score"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20803D60"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20803D60</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>52</ID>
+      <Description>"Inventory"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>0000FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>76</ID>
+          <Description>"Current Mission Obj. Tracker"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F8C"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20622F8C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>77</ID>
+          <Description>"Mission Complete Counter !!"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F10"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20622F10</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"Orb Count"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F1C"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20622F1C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>15</ID>
+          <Description>"Orb Count Menus"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F20"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20622F20</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>16</ID>
+          <Description>"Skull Gem Count"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F14"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20622F14</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>81</ID>
+          <Description>"Upgrades and Inventory Flags"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F30"/>
+          <Color>80000008</Color>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>4</ByteLength>
+          <Address>20622F30</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"Jak"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>0000FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>11</ID>
+          <Description>"Blaster Gun"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F54"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20622F54</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>26</ID>
+          <Description>"Jak HP"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2019C5C0"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2019C5C0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1</ID>
+          <Description>"Jak X-Coord"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20197790"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20197790</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>0</ID>
+          <Description>"Jak Y-Coord"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20197794"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20197794</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2</ID>
+          <Description>"Jak Z-Coord"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20197798"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20197798</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>74</ID>
+          <Description>"Jak's Dark Eco"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F28"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20622F28</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>10</ID>
+          <Description>"Last Used Gun Flag"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F50"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20622F50</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"Peacemaker"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F60"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20622F60</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>9</ID>
+          <Description>"Scatter Gun"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F58"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20622F58</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12</ID>
+          <Description>"Vulcan Fury"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F5C"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20622F5C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2100</ID>
+          <Description>"guard alert flag 1 = alert, 2 = higher"</Description>
+          <LastState Value="??" Activated="0" RealAddress="217350C1"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>217350C1</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3494</ID>
+          <Description>"direction"</Description>
+          <LastState Value="??" Activated="0" RealAddress="201977A4"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>201977A4</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2973</ID>
+      <Description>"Miscellaneous"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>0080FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>202</ID>
+          <Description>"Makes minimap pulse when guards alerted"</Description>
+          <LastState Value="??" Activated="0" RealAddress="206230C8"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>206230C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>631</ID>
+          <Description>"keeps deadtown/airlock deloaded at 95-&gt;115"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20727615"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20727615</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1948</ID>
+          <Description>"minimap zoomout"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20A479F4"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20A479F4</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2970</ID>
+      <Description>"Mission Flags"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>808000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>479</ID>
+          <Description>"Arcade Completion 0-&gt;1"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2081D029"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2081D029</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>484</ID>
+          <Description>"Arcade Cutscene / Mission Log 0-&gt;16748921"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2080BB38"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2080BB38</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>483</ID>
+          <Description>"Arcade Cutscene Flag 136-&gt;137"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2080BB14"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2080BB14</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>657</ID>
+          <Description>"Underport Load 82-&gt; 83"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2080B964"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2080B964</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>477</ID>
+          <Description>"ammo dump 0-&gt;1"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2081CCA9"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2081CCA9</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>475</ID>
+          <Description>"ammo dump 0-&gt;2?"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20817F82"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20817F82</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>476</ID>
+          <Description>"ammo dump 3 bytes changed 0-&gt;474703"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20817F78"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20817F78</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>474</ID>
+          <Description>"ammo dump 8-&gt;9 also"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20817F54"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20817F54</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2102</ID>
+          <Description>"construction site cutscene 72-73"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2080AF84"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2080AF84</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2103</ID>
+          <Description>"construction site mission log 0-&gt;754151"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2080AFA8"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2080AFA8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2104</ID>
+          <Description>"consturction site flag"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2081D069"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2081D069</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2105</ID>
+          <Description>"defend stadium flag"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2081D059"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2081D059</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>478</ID>
+          <Description>"explorepalace completiton flag"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2081CFF9"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2081CFF9</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>469</ID>
+          <Description>"it put pumping valve to the end of completed list"</Description>
+          <LastState Value="??" Activated="0" RealAddress="208184B4"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>208184B4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>467</ID>
+          <Description>"it put valve into missions complete (8-&gt;9)"</Description>
+          <LastState Value="??" Activated="0" RealAddress="208183C4"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>208183C4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728</ID>
+          <Description>"metal head mash: keeps bar door shut 1290821 -&gt; 1290829"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2085B894"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2085B894</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>473</ID>
+          <Description>"pumping station mission cutscene"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2081CC98"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2081CC98</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2974</ID>
+      <Description>"Music"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>0080FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>235</ID>
+          <Description>"Guard Alert Music"</Description>
+          <LastState Value="??" Activated="0" RealAddress="240A3484"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>240A3484</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2971</ID>
+      <Description>"Objectives"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>808000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>48</ID>
+          <Description>"Current Gun Course (not tested for other missions)"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F68"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20622F68</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>80</ID>
+          <Description>"Current Mission Timer?"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F78"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20622F78</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>116</ID>
+          <Description>"Current Save File"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20128A18"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20128A18</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>117</ID>
+          <Description>"Current Save File Story Progression"</Description>
+          <LastState Value="??" Activated="0" RealAddress="205A4F5C"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>205A4F5C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>241</ID>
+          <Description>"Jinx Health"</Description>
+          <LastState Value="??" Activated="0" RealAddress="206230B8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>206230B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>357</ID>
+          <Description>"Praxis II HP"</Description>
+          <LastState Value="??" Activated="0" RealAddress="201B5858"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>201B5858</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2616</ID>
+          <Description>"kor hp phase 1/2"</Description>
+          <LastState Value="??" Activated="0" RealAddress="201B5118"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>201B5118</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2617</ID>
+          <Description>"kor hp phase 3"</Description>
+          <LastState Value="??" Activated="0" RealAddress="201C23F8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>201C23F8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3258</ID>
+          <Description>"turns off zoomers after escape"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20818F88"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20818F88</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3274</ID>
+          <Description>"protect kor (7 no vehicle -&gt; 0 vehicles)"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20826AE8"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20826AE8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3262</ID>
+          <Description>"protect kor (8 no vehicle -&gt; 9 vehicles)"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20818DC4"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20818DC4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3621</ID>
+          <Description>"Krew Z-Value"</Description>
+          <LastState Value="??" Activated="0" RealAddress="201B47E8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>201B47E8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3622</ID>
+          <Description>"krew X value"</Description>
+          <LastState Value="??" Activated="0" RealAddress="201B47E0"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>201B47E0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3623</ID>
+          <Description>"krew y value"</Description>
+          <LastState Value="??" Activated="0" RealAddress="201B47E4"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>201B47E4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3628</ID>
+          <Description>"krew hp"</Description>
+          <LastState Value="??" Activated="0" RealAddress="201B442C"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>201B442C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3629</ID>
+          <Description>"krew spawns"</Description>
+          <LastState Value="??" Activated="0" RealAddress="201B4620"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>201B4620</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3346</ID>
+          <Description>"gets rid of torn minimap icon when inc 4"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20A48D4C"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20A48D4C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3630</ID>
+          <Description>"praxis hp"</Description>
+          <LastState Value="??" Activated="0" RealAddress="201B5858"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>201B5858</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2975</ID>
+      <Description>"Orbs"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>0080FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>635</ID>
+          <Description>"deadtown orb"</Description>
+          <LastState Value="??" Activated="0" RealAddress="21986268"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>21986268</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>654</ID>
+          <Description>"deadtown orb2"</Description>
+          <LastState Value="??" Activated="0" RealAddress="21986228"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>21986228</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>656</ID>
+          <Description>"deadtown orb3"</Description>
+          <LastState Value="??" Activated="0" RealAddress="21986328"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>21986328</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2967</ID>
+      <Description>"Secrets"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>0080FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>115</ID>
+          <Description>"Actually Toggle Mirror World 1 = off 5 = on"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2074C538"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2074C538</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>99</ID>
+          <Description>"Goatee/Invul/InfiniteAmmo/MirrWorld etc Menu"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F40"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20622F40</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>97</ID>
+          <Description>"Jak's Head Menu"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F42"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20622F42</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>96</ID>
+          <Description>"Visually Toggle Jak's Goatee"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20826B24"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20826B24</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2969</ID>
+      <Description>"Side Missions"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>808000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>2965</ID>
+          <Description>"Allows Side Missions to Activate"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20362DD4"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20362DD4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>168</ID>
+          <Description>"Keeps Track of Completed Side missions (doesnt toggle on the map though)"</Description>
+          <LastState Value="??" Activated="0" RealAddress="208084B0"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>208084B0</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2966</ID>
+      <Description>"Statistics"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>808000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>79</ID>
+          <Description>"Number of Attacks"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F94"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20622F94</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>75</ID>
+          <Description>"Total Dark Eco Collected"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F2C"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20622F2C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3490</ID>
+          <Description>"amount of distance last/gained last jump"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2019D840"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2019D840</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2972</ID>
+      <Description>"Strings"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>C080FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>338</ID>
+          <Description>"Visible Game Strings"</Description>
+          <LastState Activated="0" RealAddress="2088CCD8"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>255</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>2088CCD8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>337</ID>
+          <Description>"global heap error message"</Description>
+          <LastState Activated="0" RealAddress="20882DAB"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>255</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>20882DAB</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3746</ID>
+          <Description>"vehicle prompt"</Description>
+          <LastState Activated="0" RealAddress="20890398"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>100</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>20890398</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"Debug Menu Strings"</Description>
+          <LastState Activated="0" RealAddress="205FD4F8"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>255</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>205FD4F8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>339</ID>
+          <Description>"mentions of debug menu"</Description>
+          <LastState Activated="0" RealAddress="2099C496"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>255</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>2099C496</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>341</ID>
+          <Description>"debug hook"</Description>
+          <LastState Activated="0" RealAddress="209A0BF8"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>255</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>209A0BF8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3752</ID>
+      <Description>"Vehicles"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>0080FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>3631</ID>
+          <Description>"random zoomer"</Description>
+          <LastState Value="??" Activated="0" RealAddress="202394B0"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>202394B0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3640</ID>
+          <Description>"transpose zoomer 1 direction"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2023A408"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2023A408</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>53</ID>
+      <Description>"Needs Further Testing"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>0000FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>98</ID>
+          <Description>"Must be something"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20622F41"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20622F41</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>455</ID>
+          <Description>"cuts off voices early?"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2413A4B8"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2413A4B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>243</ID>
+          <Description>"karma?"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20638178"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20638178</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>471</ID>
+          <Description>"missions in progress tracker?"</Description>
+          <LastState Value="??" Activated="0" RealAddress="208185A4"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>208185A4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>94</ID>
+          <Description>"outside of city or not flag?"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20826EB8"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20826EB8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3275</ID>
+          <Description>"beginning of debug settings"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20825B70"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20825B70</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3276</ID>
+          <Description>"possible flags for jak"</Description>
+          <LastState Value="??" Activated="0" RealAddress="208269D0"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>208269D0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3277</ID>
+          <Description>"setting flags?"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20826A80"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20826A80</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3361</ID>
+          <Description>"turns off city music"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20826A6B"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20826A6B</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3368</ID>
+          <Description>"zooms in or clips the screen or something"</Description>
+          <LastState Value="??" Activated="0" RealAddress="209A1C73"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>209A1C73</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3353</ID>
+          <Description>"somewhere after this is the freecam byte"</Description>
+          <LastState Value="??" Activated="0" RealAddress="208273C0"/>
+          <Color>00FF00</Color>
+          <VariableType>Byte</VariableType>
+          <Address>208273C0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3372</ID>
+          <Description>"No description"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2098C470"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2098C470</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3373</ID>
+          <Description>"No description"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2098C471"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2098C471</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3374</ID>
+          <Description>"No description"</Description>
+          <LastState Activated="0" RealAddress="2096BC08"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>10</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>2096BC08</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3375</ID>
+          <Description>"stopped filling in here"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2096D044"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2096D044</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3376</ID>
+          <Description>"maybe debug menu on?"</Description>
+          <LastState Activated="0" RealAddress="209A6D18"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>10</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>209A6D18</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3377</ID>
+          <Description>"crashes when changing from 1"</Description>
+          <LastState Value="??" Activated="0" RealAddress="209A7314"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>209A7314</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3378</ID>
+          <Description>"blackscreen if not 50"</Description>
+          <LastState Value="??" Activated="0" RealAddress="209A7315"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>209A7315</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3379</ID>
+          <Description>"black screen if not 20"</Description>
+          <LastState Value="??" Activated="0" RealAddress="209A7316"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>209A7316</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3380</ID>
+          <Description>"blackscreen if not 0"</Description>
+          <LastState Value="??" Activated="0" RealAddress="209A7317"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>209A7317</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3624</ID>
+          <Description>"mission related things"</Description>
+          <LastState Activated="0" RealAddress="205C5CC1"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>10</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>205C5CC1</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3632</ID>
+          <Description>"makes jak flail around"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20239788"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>20239788</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3748</ID>
+          <Description>"traffic danger?"</Description>
+          <LastState Activated="0" RealAddress="205FF2E8"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>20</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>205FF2E8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3749</ID>
+          <Description>"game task, might be mission related"</Description>
+          <LastState Activated="0" RealAddress="206009A8"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>50</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>206009A8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3750</ID>
+          <Description>"mentions of textures"</Description>
+          <LastState Activated="0" RealAddress="20D9D8C8"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>10</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>20D9D8C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3751</ID>
+          <Description>"are these perhaps side missions?"</Description>
+          <LastState Activated="0" RealAddress="20601498"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>10</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>20601498</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>340</ID>
+          <Description>"start of debug menu data"</Description>
+          <LastState Value="??" Activated="0" RealAddress="2099CAEA"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>2099CAEA</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>485</ID>
+          <Description>"snow"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20825C4C"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>20825C4C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>480</ID>
+          <Description>"debug options"</Description>
+          <LastState Value="??" Activated="0" RealAddress="20825B88"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>20825B88</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3363</ID>
+          <Description>"some string maybe another spot to fill"</Description>
+          <LastState Activated="0" RealAddress="209A0BF8"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>25</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>209A0BF8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3625</ID>
+          <Description>"settingcontrol"</Description>
+          <LastState Activated="0" RealAddress="205F5128"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>100</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>205F5128</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3369</ID>
+          <Description>"stopped filling in after main debug hook"</Description>
+          <LastState Value="??" Activated="0" RealAddress="209A25AF"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>209A25AF</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Change of movaps [ecx],xmm0</Description>
+      <Address>3008EA59</Address>
+      <ModuleName/>
+      <ModuleNameOffset>0</ModuleNameOffset>
+      <Before>
+        <Byte>C9</Byte>
+        <Byte>D3</Byte>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>02</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>29</Byte>
+        <Byte>01</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>05</Byte>
+        <Byte>A0</Byte>
+        <Byte>70</Byte>
+        <Byte>2D</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movaps [eax-60],xmm0</Description>
+      <Address>009B697D</Address>
+      <ModuleName>pcsx2.exe</ModuleName>
+      <ModuleNameOffset>5697D</ModuleNameOffset>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>0F</Byte>
+        <Byte>29</Byte>
+        <Byte>40</Byte>
+        <Byte>90</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>29</Byte>
+        <Byte>40</Byte>
+        <Byte>A0</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>29</Byte>
+        <Byte>40</Byte>
+        <Byte>B0</Byte>
+        <Byte>0F</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movaps [ecx],xmm0</Description>
+      <Address>3001D9C9</Address>
+      <ModuleName/>
+      <ModuleNameOffset>0</ModuleNameOffset>
+      <Before>
+        <Byte>B7</Byte>
+        <Byte>D2</Byte>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>02</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>29</Byte>
+        <Byte>01</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>05</Byte>
+        <Byte>00</Byte>
+        <Byte>CC</Byte>
+        <Byte>1B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of jae VCRUNTIME140.memcpy+57</Description>
+      <Address>70E6CF5C</Address>
+      <ModuleName>VCRUNTIME140.dll</ModuleName>
+      <ModuleNameOffset>CF5C</ModuleNameOffset>
+      <Before>
+        <Byte>2C</Byte>
+        <Byte>02</Byte>
+        <Byte>E7</Byte>
+        <Byte>70</Byte>
+        <Byte>01</Byte>
+      </Before>
+      <Actual>
+        <Byte>73</Byte>
+        <Byte>09</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>A4</Byte>
+        <Byte>8B</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movzx eax,byte ptr [ecx]</Description>
+      <Address>300432C2</Address>
+      <ModuleName/>
+      <ModuleNameOffset>0</ModuleNameOffset>
+      <Before>
+        <Byte>88</Byte>
+        <Byte>3E</Byte>
+        <Byte>AD</Byte>
+        <Byte>B4</Byte>
+        <Byte>D2</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>B6</Byte>
+        <Byte>01</Byte>
+      </Actual>
+      <After>
+        <Byte>A3</Byte>
+        <Byte>60</Byte>
+        <Byte>CB</Byte>
+        <Byte>1B</Byte>
+        <Byte>01</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movzx eax,byte ptr [ecx]</Description>
+      <Address>300433D9</Address>
+      <ModuleName/>
+      <ModuleNameOffset>0</ModuleNameOffset>
+      <Before>
+        <Byte>88</Byte>
+        <Byte>27</Byte>
+        <Byte>AC</Byte>
+        <Byte>B4</Byte>
+        <Byte>D2</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>B6</Byte>
+        <Byte>01</Byte>
+      </Actual>
+      <After>
+        <Byte>A3</Byte>
+        <Byte>40</Byte>
+        <Byte>CB</Byte>
+        <Byte>1B</Byte>
+        <Byte>01</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov eax,[esi+04]</Description>
+      <Address>00AA2ECB</Address>
+      <ModuleName>pcsx2.exe</ModuleName>
+      <ModuleNameOffset>142ECB</ModuleNameOffset>
+      <Before>
+        <Byte>C3</Byte>
+        <Byte>8B</Byte>
+        <Byte>06</Byte>
+        <Byte>89</Byte>
+        <Byte>07</Byte>
+      </Before>
+      <Actual>
+        <Byte>8B</Byte>
+        <Byte>46</Byte>
+        <Byte>04</Byte>
+      </Actual>
+      <After>
+        <Byte>89</Byte>
+        <Byte>47</Byte>
+        <Byte>04</Byte>
+        <Byte>5F</Byte>
+        <Byte>5E</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [esi+04],eax</Description>
+      <Address>00AA2E4B</Address>
+      <ModuleName>pcsx2.exe</ModuleName>
+      <ModuleNameOffset>142E4B</ModuleNameOffset>
+      <Before>
+        <Byte>89</Byte>
+        <Byte>06</Byte>
+        <Byte>8B</Byte>
+        <Byte>47</Byte>
+        <Byte>04</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>46</Byte>
+        <Byte>04</Byte>
+      </Actual>
+      <After>
+        <Byte>5F</Byte>
+        <Byte>5E</Byte>
+        <Byte>5B</Byte>
+        <Byte>8B</Byte>
+        <Byte>E5</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [ecx],dl</Description>
+      <Address>3014E649</Address>
+      <ModuleName/>
+      <ModuleNameOffset>0</ModuleNameOffset>
+      <Before>
+        <Byte>88</Byte>
+        <Byte>77</Byte>
+        <Byte>FB</Byte>
+        <Byte>A3</Byte>
+        <Byte>D2</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>11</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>05</Byte>
+        <Byte>30</Byte>
+        <Byte>CC</Byte>
+        <Byte>1B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movaps [ecx],xmm0</Description>
+      <Address>3015F99F</Address>
+      <ModuleName/>
+      <ModuleNameOffset>0</ModuleNameOffset>
+      <Before>
+        <Byte>A2</Byte>
+        <Byte>D2</Byte>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>02</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>29</Byte>
+        <Byte>01</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>05</Byte>
+        <Byte>60</Byte>
+        <Byte>CB</Byte>
+        <Byte>1B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movdqu [edi],xmm0</Description>
+      <Address>70E6D3F9</Address>
+      <ModuleName>VCRUNTIME140.dll</ModuleName>
+      <ModuleNameOffset>D3F9</ModuleNameOffset>
+      <Before>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>6F</Byte>
+        <Byte>4E</Byte>
+        <Byte>10</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>7F</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>7F</Byte>
+        <Byte>4F</Byte>
+        <Byte>10</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movdqu [edi],xmm0</Description>
+      <Address>70E6D3F9</Address>
+      <ModuleName>VCRUNTIME140.dll</ModuleName>
+      <ModuleNameOffset>D3F9</ModuleNameOffset>
+      <Before>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>6F</Byte>
+        <Byte>4E</Byte>
+        <Byte>10</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>7F</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>7F</Byte>
+        <Byte>4F</Byte>
+        <Byte>10</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movaps [eax-60],xmm0</Description>
+      <Address>013EBC3D</Address>
+      <ModuleName>pcsx2.exe</ModuleName>
+      <ModuleNameOffset>4BC3D</ModuleNameOffset>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>0F</Byte>
+        <Byte>29</Byte>
+        <Byte>40</Byte>
+        <Byte>90</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>29</Byte>
+        <Byte>40</Byte>
+        <Byte>A0</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>29</Byte>
+        <Byte>40</Byte>
+        <Byte>B0</Byte>
+        <Byte>0F</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movaps [ecx],xmm1</Description>
+      <Address>301D48F5</Address>
+      <ModuleName/>
+      <ModuleNameOffset>0</ModuleNameOffset>
+      <Before>
+        <Byte>CE</Byte>
+        <Byte>D3</Byte>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>0A</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>29</Byte>
+        <Byte>09</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>3D</Byte>
+        <Byte>60</Byte>
+        <Byte>70</Byte>
+        <Byte>47</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Code :push ebp</Description>
+      <Address>00BCDDD0</Address>
+      <ModuleName>pcsx2.exe</ModuleName>
+      <ModuleNameOffset>26DDD0</ModuleNameOffset>
+      <Before>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+      </Before>
+      <Actual>
+        <Byte>55</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>EC</Byte>
+        <Byte>6A</Byte>
+        <Byte>FF</Byte>
+        <Byte>68</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+  <LuaScript>RWCEMainDirectory = [[E:\Emulator\ramwatch]]
+
+RWCEOptions = {
+  gameModuleName = 'jak2',
+  gameVersion = 'na_0_00',
+  layoutName = 'Jak2Layout',
+}
+
+local loaderFile, errorMessage = loadfile(RWCEMainDirectory .. '/loader.lua')
+if errorMessage then error(errorMessage) end
+loaderFile()
+</LuaScript>
+  <DisassemblerComments>
+    <DisassemblerComment>
+      <Address>304338A4</Address>
+      <Comment>%s
+</Comment>
+    </DisassemblerComment>
+  </DisassemblerComments>
+</CheatTable>

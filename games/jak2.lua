@@ -85,48 +85,6 @@ function Jak2:coordinates()
 		.. utils.floatToStr(zPosition, {afterDecimal=1}) .. ") "
 end
 
--- Direction
-function Jak2:direction()
-
-	local directionAddress = 0x201977A4
-	
-	-- Calculate direction, north is ~1, south ~0, east ~0.5, west ~-0.5
-	local direction = utils.readFloatLE(directionAddress)
-	local directionString = ""
-	
-	-- TODO not complete yet
-	if bufferCardinalDirection(direction, 1.0) then
-		directionString = "North"
-	elseif bufferCardinalDirection(direction, 0.25) then
-		directionString = "North-East"
-	elseif bufferCardinalDirection(direction, 0.50) then
-		directionString = "East"
-	elseif bufferCardinalDirection(direction, 0.75) then
-		directionString = "South-East"
-	elseif bufferCardinalDirection(direction, 0.00) then
-		directionString = "South"
-	elseif bufferCardinalDirection(direction, -0.75) then
-		directionString = "South-West"
-	elseif bufferCardinalDirection(direction, -0.50) then
-		directionString = "West"
-	else
-		directionString = "North-West"
-	end
-	
-	return "Direction:\t" .. directionString
-end
-
-function bufferCardinalDirection(direction, cardinal)
-	
-	local buffer = 0.125
-	
-	if ((direction > (cardinal - buffer)) and (direction < (cardinal + buffer))) then
-		return True
-	else
-		return False
-	end
-end
-
 -- Lateral Speed
 function Jak2:lateralSpeed()
 
@@ -140,12 +98,19 @@ function Jak2:verticalSpeed()
 	return "Vertical Speed:\t" .. utils.floatToStr(deltaY) .. " u/f"
 end
 
+-- Checkpoint
+dofile (RWCEMainDirectory .. '\\jak2_checkpoints.lua')
 function Jak2:checkpointAddr()
 
 	local checkpointAddress = 0x20622FA0
-	local checkpoint = utils.readIntLE(checkpointAddress, 4)
-
-	return "Checkpoint Address:\t" .. utils.intToStr(checkpoint)
+	local checkpointValue = utils.readIntLE(checkpointAddress, 4)
+	local checkpoint = checkpoints[checkpointValue]
+	
+	if checkpoint ~= nil then
+		return "Checkpoint:\t" .. checkpoint
+	else
+		return "Checkpoint:\t" .. "Unknown (" .. utils.intToStr(checkpointValue) .. ")"
+	end
 end
 
 -- Hack that isnt nessecary?
