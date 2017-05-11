@@ -15,12 +15,6 @@ Inventory
 	currently selected gun
 	inventory unlockables
 	
-Game Info:
-	FOV, aspect ratio
-	guard alert state
-	total number of attacks
-	total number of dark eco collected
-	
 Objectives:
 	current race timer
 	current guncourse tracker
@@ -31,6 +25,12 @@ Boss Information
 	krew hp
 	krew spawn counter
 	kor hp
+	
+Game Info:
+	FOV, aspect ratio
+	guard alert state
+	total number of attacks
+	total number of dark eco collected
 	
 Secrets
 	secrets toggled on

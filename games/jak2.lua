@@ -37,12 +37,12 @@ end
 -- Eco Count
 function Jak2:ecoCount()
 	local eco = utils.readFloatLE(0x20622F28)
-	return "Dark Eco:\t\t\t" .. utils.floatToStr(eco, {afterDecimal=0}) .. " / 100"
+	return "Dark Eco:\t\t" .. utils.floatToStr(eco, {afterDecimal=0}) .. " / 100"
 end
 -- Orb Count
 function Jak2:orbCount()
 	local orbs = utils.readFloatLE(0x20622F1C)
-	return "Orb Count:\t\t\t" .. utils.floatToStr(orbs, {afterDecimal=0}) .. " / 286"
+	return "Orb Count:\t\t" .. utils.floatToStr(orbs, {afterDecimal=0}) .. " / 286"
 end
 -- Skullgem Count
 function Jak2:gemCount()
@@ -79,7 +79,7 @@ function Jak2:coordinates()
 	prevYPos = yPosition
 	prevZPos = zPosition
 	
-	return "Position:\t" .. "(" 
+	return "Position:\t\t" .. "(" 
 		.. utils.floatToStr(xPosition, {afterDecimal=1}) .. ", " 
 		.. utils.floatToStr(yPosition, {afterDecimal=1}) .. ", " 
 		.. utils.floatToStr(zPosition, {afterDecimal=1}) .. ") "
@@ -90,12 +90,12 @@ function Jak2:lateralSpeed()
 
 	-- sqrt((x2-x1)^2 + (y2-y1)^2) 
 	local speed = math.sqrt((deltaX^2) + (deltaZ^2))
-	return "Lateral Speed:\t" .. utils.floatToStr(speed) .. " u/f"
+	return "Lateral Speed:\t\t" .. utils.floatToStr(speed) .. " u/f"
 end
 
 -- Vertical Speed
 function Jak2:verticalSpeed()
-	return "Vertical Speed:\t" .. utils.floatToStr(deltaY) .. " u/f"
+	return "Vertical Speed:\t\t" .. utils.floatToStr(deltaY) .. " u/f"
 end
 
 -- Checkpoint
@@ -107,10 +107,208 @@ function Jak2:checkpointAddr()
 	local checkpoint = checkpoints[checkpointValue]
 	
 	if checkpoint ~= nil then
-		return "Checkpoint:\t" .. checkpoint
+		return "Checkpoint:\t\t" .. checkpoint
 	else
-		return "Checkpoint:\t" .. "Unknown (" .. utils.intToStr(checkpointValue) .. ")"
+		return "Checkpoint:\t\t" .. "Unknown (" .. utils.intToStr(checkpointValue) .. ")"
 	end
+end
+
+-- Inventory
+-- Ammo Counts
+function Jak2:ammoCount()
+
+	local scatterAddress = 0x20622F58
+	local blasterAddress = 0x20622F54
+	local vulcanAddress = 0x20622F5C
+	local peacemakerAddress = 0x20622F60
+	
+	local scatterAmmo = utils.readFloatLE(scatterAddress)
+	local blasterAmmo = utils.readFloatLE(blasterAddress)
+	local vulcanAmmo = utils.readFloatLE(vulcanAddress)
+	local peacemakerAmmo = utils.readFloatLE(peacemakerAddress)
+	
+	local ammoUpgraded = utils.readIntLE(0x20622F31, 1) & 0x80 -- 8th bit set?
+	
+	local scatterFlag = utils.readIntLE(0x20622F30, 1) & 0x80 -- 8th bit set?
+	local blasterFlag = utils.readIntLE(0x20622F30, 1) & 0x40 -- 7th bit set?
+	local vulcanFlag = utils.readIntLE(0x20622F31, 1) & 0x01 -- 1st bit set?
+	local peacemakerFlag = utils.readIntLE(0x20622F31, 1) & 0x02 -- 2nd bit set?
+	
+	return "\t\t\t\t" .. utils.floatToStr(scatterAmmo, {afterDecimal=0}) .. (ammoUpgraded == 128 and " / 100" or (scatterFlag == 0 and " / 50" or " -- / --")) ..
+		"\nAmmo Counts:\t\t" .. utils.floatToStr(vulcanAmmo, {afterDecimal=0}) .. (ammoUpgraded == 128 and " / 200" or (blasterFlag == 0 and " / 100" or " -- / --")) .. 
+		"\t" .. utils.floatToStr(peacemakerAmmo, {afterDecimal=0}) .. (ammoUpgraded == 128 and " / 10" or (vulcanFlag == 0 and " / 5" or " -- / --")) ..
+		"\n\t\t\t\t" .. utils.floatToStr(blasterAmmo, {afterDecimal=0}) .. (ammoUpgraded == 128 and " / 200" or (peacemakerFlag == 0 and " / 100" or " -- / --"))
+end
+
+-- Currently selected gun
+function Jak2:currentSelectedGun()
+	
+	local selectedGunAddress = 0x20622F50
+	
+	local gunIndex = utils.readIntLE(selectedGunAddress, 4)
+	
+	if gunIndex == 1 then
+		return "Current Selected Gun:\tBlaster Rifle"
+	elseif gunIndex == 2 then
+		return "Current Selected Gun:\tScatter Gun"
+	elseif gunIndex == 3 then
+		return "Current Selected Gun:\tVulcan Fury"
+	elseif gunIndex == 4 then
+		return "Current Selected Gun:\tPeacemaker"
+	else
+		return "Current Selected Gun:\t---"
+	end
+end
+
+-- Unlocked Abilities
+function Jak2:unlockedAbilities()
+
+	local gunFlag = utils.readIntLE(0x20622F30, 1) & 0x20 -- 6th bit set?
+	local jetboardFlag = utils.readIntLE(0x20622F31, 1) & 0x04 -- 3rd bit set?
+	local jetboardFlagMission = utils.readIntLE(0x20622F33, 1) & 0x04 -- 3rd bit set?
+	local darkJakFlag = utils.readIntLE(0x20622F31, 1) & 0x20 -- 6th bit set?
+	
+	local finalString = "Unlocked Abilities:\t"
+	
+	local firstEntry = true
+	
+	if gunFlag ~= 0 then
+		if firstEntry == false then 
+			finalString = finalString .. "\t\t"
+		end
+		finalString = finalString .. "Can use Guns\n" 
+		firstEntry = false
+	end
+	if darkJakFlag ~= 0 then
+		if firstEntry == false then 
+			finalString = finalString .. "\t\t\t"
+		end
+		finalString = finalString .. "Can use Dark Jak\n" 
+		firstEntry = false
+	end
+	if jetboardFlag ~= 0 then
+		if firstEntry == false then 
+			finalString = finalString .. "\t\t\t"
+		end
+		finalString = finalString .. "Can use Jetboard\n" 
+		firstEntry = false
+	end
+	if jetboardFlagMission ~= 0 then
+		if firstEntry == false then 
+			finalString = finalString .. "\t\t\t"
+		end
+		finalString = finalString .. "Can use Jetboard on Mission\n" 
+		firstEntry = false
+	end
+	if firstEntry == true then
+		finalString = finalString .. "---" end
+	
+	return finalString
+end
+
+-- Unlocked Clearances
+function Jak2:unlockedClearance() 
+	
+	local redFlag = utils.readIntLE(0x20622F32, 1) & 0x04 -- 3rd bit set?
+	local greenFlag = utils.readIntLE(0x20622F32, 1) & 0x08 -- 4th bit set?
+	local yellowFlag = utils.readIntLE(0x20622F32, 1) & 0x10 -- 5th bit set?
+	
+	local finalString = "Unlocked Clearances:\t"
+	
+	if redFlag ~= 0 then
+		finalString = finalString .. "Red  " end
+	if greenFlag ~= 0 then
+		finalString = finalString .. "Green  " end
+	if yellowFlag ~= 0 then
+		finalString = finalString .. "Yellow  " end
+	if redFlag == 0 and greenFlag == 0 and yellowFlag == 0 then
+		finalString = finalString .. "  ---" end
+		
+	return finalString
+end
+		
+-- Unlocked Upgrades
+function Jak2:unlockedUpgrades()
+
+	local scatterROFFlag = utils.readIntLE(0x20622F31, 1) & 0x40 -- 7th bit set?
+	local capacityFlag = utils.readIntLE(0x20622F31, 1) & 0x80 -- 8th bit set?
+	local damageFlag = utils.readIntLE(0x20622F32, 1) & 0x01 -- 1st bit set?
+	
+	local finalString = "Unlocked Upgrades:\t"
+	
+	local firstEntry = true
+	
+	if scatterROFFlag ~= 0 then
+		if firstEntry == false then 
+			finalString = finalString .. "\t\t\t"
+		end
+		finalString = finalString .. "Increased Scatter Gun ROF\n" 
+		firstEntry = false
+	end
+	if capacityFlag ~= 0 then
+		if firstEntry == false then 
+			finalString = finalString .. "\t\t\t"
+		end
+		finalString = finalString .. "Weapon Capacity Increased\n" 
+		firstEntry = false
+	end
+	if damageFlag ~= 0 then
+		if firstEntry == false then 
+			finalString = finalString .. "\t\t\t"
+		end
+		finalString = finalString .. "Weapon Damage Increased\n" 
+		firstEntry = false
+	end
+	if firstEntry == true then
+		finalString = finalString .. "---" end
+	
+	return finalString
+end
+
+-- Dark Jak Upgrades
+function Jak2:unlockedDarkJak()
+
+	local bombFlag = utils.readIntLE(0x20622F32, 1) & 0x40 -- 7th bit set?
+	local blastFlag = utils.readIntLE(0x20622F32, 1) & 0x80 -- 8th bit set?
+	local invulnFlag = utils.readIntLE(0x20622F33, 1) & 0x01 -- 1st bit set?
+	local giantFlag = utils.readIntLE(0x20622F33, 1) & 0x02 -- 2nd bit set?
+	
+	local finalString = "Dark Jak Powers:\t"
+	
+	local firstEntry = true
+	
+	if bombFlag ~= 0 then
+		if firstEntry == false then 
+			finalString = finalString .. "\t\t\t"
+		end
+		finalString = finalString .. "Dark Bomb\n" 
+		firstEntry = false
+	end
+	if blastFlag ~= 0 then
+		if firstEntry == false then 
+			finalString = finalString .. "\t\t\t"
+		end
+		finalString = finalString .. "Dark Blast\n" 
+		firstEntry = false
+	end
+	if invulnFlag ~= 0 then
+		if firstEntry == false then 
+			finalString = finalString .. "\t\t\t"
+		end
+		finalString = finalString .. "Dark Invulnerability\n" 
+		firstEntry = false
+	end
+	if giantFlag ~= 0 then
+		if firstEntry == false then 
+			finalString = finalString .. "\t\t\t"
+		end
+		finalString = finalString .. "Dark Giant\n" 
+		firstEntry = false
+	end
+	if firstEntry == true then
+		finalString = finalString .. "---" end
+	
+	return finalString
 end
 
 -- Hack that isnt nessecary?

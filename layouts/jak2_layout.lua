@@ -40,10 +40,19 @@ function layouts.Jak2Layout:init()
 	self:addItem(self.game.checkpointAddr)
 	
 	self:addLabel{fontSize=fontSizeHeader, fontName=headerFontName, fontColor=headerFontColor}
-	self:addItem("Game Info")
+	self:addItem("Inventory")
+	self:addLabel{fontSize=fontSize, fontName=contentFontName}
+	self:addItem(self.game.ammoCount)
+	self:addItem(self.game.currentSelectedGun)
+	self:addItem(self.game.unlockedAbilities)
+	self:addItem(self.game.unlockedClearance)
+	self:addItem(self.game.unlockedUpgrades)
+	self:addItem(self.game.unlockedDarkJak)
 	
 	self:addLabel{fontSize=fontSizeHeader, fontName=headerFontName, fontColor=headerFontColor}
-	self:addItem("Inventory")
+	self:addItem("Game Info")
+	
+	
 	
 	self:addLabel{fontSize=fontSizeHeader, fontName=headerFontName, fontColor=headerFontColor}
 	self:addItem("Objectives")
