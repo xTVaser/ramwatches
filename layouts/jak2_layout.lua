@@ -6,11 +6,11 @@ package.loaded.layouts = nil
 local layoutsModule = require 'layouts'
 local Layout = layoutsModule.Layout
 
-local margin = 6
+local margin = 15
 local fontSize = 10
 local fontSizeHeader = 12
 local contentFontName = "Consolas"
-local headerFontName = "Arial"
+local headerFontName = "Arial Black"
 local headerFontColor = 0x000000
 
 local layouts = {}
@@ -21,9 +21,15 @@ function layouts.Jak2Layout:init()
 	self.margin = margin
 	self:setUpdatesPerSecond(5)
 	self.window:setSize(400, 800)
+	self.window.setColor(0xFF00DD)
 
 	self:addLabel{fontSize=fontSizeHeader, fontName=headerFontName, fontColor=headerFontColor}
 	self:addItem("Jak Status")
+	self:addLabel{fontSize=fontSize, fontName=contentFontName}
+	self:addItem(self.game.jakHealth)
+	self:addItem(self.game.ecoCount)
+	self:addItem(self.game.orbCount)
+	self:addItem(self.game.gemCount)
 	
 	self:addLabel{fontSize=fontSizeHeader, fontName=headerFontName, fontColor=headerFontColor}
 	self:addItem("Position and Movement")

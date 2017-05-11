@@ -28,6 +28,28 @@ function StaticValue:getAddress()
 	return self.game.startAddress - self.game.startAddress 
 end
 
+-- Status Values
+-- HP
+function Jak2:jakHealth()
+	local hp = utils.readFloatLE(0x2019C5C0)
+	return "HP: \t\t\t" .. utils.floatToStr(hp, {afterDecimal=0}) .. " / 8"
+end
+-- Eco Count
+function Jak2:ecoCount()
+	local eco = utils.readFloatLE(0x20622F28)
+	return "Dark Eco: \t\t\t" .. utils.floatToStr(eco, {afterDecimal=0}) .. " / 100"
+end
+-- Orb Count
+function Jak2:orbCount()
+	local orbs = utils.readFloatLE(0x20622F1C)
+	return "Orb Count: \t\t\t" .. utils.floatToStr(orbs, {afterDecimal=0}) .. " / 286"
+end
+-- Skullgem Count
+function Jak2:gemCount()
+	local gems = utils.readFloatLE(0x20622F14)
+	return "Skullgem Count: \t\t" .. utils.floatToStr(gems, {afterDecimal=0})
+end
+
 -- Position.
 function Jak2:xPositionDisplay()
 	local xPositionAddress = 0x20197790
