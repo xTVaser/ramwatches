@@ -33,6 +33,14 @@ function layouts.Jak2Layout:init()
 	
 	self:addLabel{fontSize=fontSizeHeader, fontName=headerFontName, fontColor=headerFontColor}
 	self:addItem("Position and Movement")
+	self:addLabel{fontSize=fontSize, fontName=contentFontName}
+	self:addItem(self.game.coordinates)
+	self:addItem(self.game.direction)
+	self:addItem(self.game.lateralSpeed)
+	self:addItem(self.game.verticalSpeed)
+	self:addItem(self.game.checkpointAddr)
+	self:addItem(self.game.gemCount)
+	self:addItem(self.game.gemCount)
 	
 	self:addLabel{fontSize=fontSizeHeader, fontName=headerFontName, fontColor=headerFontColor}
 	self:addItem("Game Info")
@@ -50,10 +58,7 @@ function layouts.Jak2Layout:init()
 	self:addItem("Secrets")
 
 	self:addLabel{fontSize=fontSize, fontName=contentFontName}
-	self:addItem(self.game.xPositionDisplay)
-	self:addItem(self.game.zPositionDisplay)
-	self:addItem(self.game.horizontalSpeed)
-	self:addItem(self.game.checkpointAddr)
+	
 
 	self:activateAutoPositioningY()
 end
