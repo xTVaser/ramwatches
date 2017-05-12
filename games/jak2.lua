@@ -136,7 +136,7 @@ function Jak2:ammoCount()
 	
 	return "\t\t\t\t" .. utils.floatToStr(scatterAmmo, {afterDecimal=0}) .. (ammoUpgraded == 128 and " / 100" or (scatterFlag == 0 and " / 50" or " -- / --")) ..
 		"\nAmmo Counts:\t\t" .. utils.floatToStr(vulcanAmmo, {afterDecimal=0}) .. (ammoUpgraded == 128 and " / 200" or (blasterFlag == 0 and " / 100" or " -- / --")) .. 
-		"\t" .. utils.floatToStr(peacemakerAmmo, {afterDecimal=0}) .. (ammoUpgraded == 128 and " / 10" or (vulcanFlag == 0 and " / 5" or " -- / --")) ..
+		"\t\t" .. utils.floatToStr(peacemakerAmmo, {afterDecimal=0}) .. (ammoUpgraded == 128 and " / 10" or (vulcanFlag == 0 and " / 5" or " -- / --")) ..
 		"\n\t\t\t\t" .. utils.floatToStr(blasterAmmo, {afterDecimal=0}) .. (ammoUpgraded == 128 and " / 200" or (peacemakerFlag == 0 and " / 100" or " -- / --"))
 end
 
@@ -351,5 +351,106 @@ function Jak2:completedMissions()
 	return "Completed Objectives:\t" .. utils.floatToStr(completedMissions, {afterDecimal=0})
 end
 
+-- Boss Information
+-- Praxis Bomb Count
+function Jak2:praxisTwoBombs()
+	
+	local praxisBombAddress = 0x201B5858
+	local bombCount = utils.readIntLE(praxisBombAddress, 4)
+	
+	-- praxis 2 reasonable values 0-12
+	if bombCount >= 0 and bombCount <= 12 then
+		return "Praxis II Bombs:\t" .. bombCount
+	else
+		return "Praxis II Bombs:\t---"
+	end
+end
+
+-- Krew HP
+function Jak2:krewHealth()
+	
+	local krewHPAddress = 0x201B442C
+	local krewHP = utils.readIntLE(krewHPAddress, 4)
+	
+	-- krew hp 0-100
+	if krewHP >= 0 and krewHP <= 100 then
+		return "Krew Health:\t\t" .. krewHP
+	else
+		return "Krew Health:\t\t---"
+	end
+end
+
+-- Krew Spawn Tracker
+function Jak2:krewSpawns()
+	
+	local krewSpawnAddress = 0x201B4620
+	local krewSpawns = utils.readIntLE(krewSpawnAddress, 4)
+	
+	-- krew spawns < 100
+	if krewSpawns >= 0 and krewSpawns <= 100 then
+		return "Krew Spawns:\t\t" .. krewSpawns
+	else
+		return "Krew Spawns:\t\t---"
+	end
+end
+
+-- Praxis Bomb Count
+function Jak2:korPhaseOneTwo()
+	
+	local korHPAddress = 0x201B5118
+	local korHP = utils.readFloatLE(korHPAddress)
+	
+	-- kor phase 1 and 2 0->1.0
+	if korHP >= 0.0 and korHP <= 1.0 then
+		return "Kor Phase 1/2 HP:\t" .. utils.floatToStr(korHP, {afterDecimal=3})
+	else
+		return "Kor Phase 1/2 HP:\t---"
+	end
+end
+
+-- Game Information
+-- guard Alert
+function Jak2:guardAlert()
+	
+	local guardAddress = 0x217350C1
+	local guardAlert = utils.readIntLE(guardAddress, 1)
+	
+	if guardAlert == 1 then
+		return "Guard Alert:\t\tLow Alert"
+	elseif guardAlert == 2 then
+		return "Guard Alert:\t\tHigh Alert"
+	else
+		return "Guard Alert:\t\tNo Alert"
+	end
+end
+
+-- current save
+function Jak2:currentSave()
+	
+	local slotAddress = 0x20128A18
+	local progressAddress = 0x205A4F5C
+	local slot = utils.readIntLE(slotAddress, 4)
+	local progress = utils.readFloatLE(progressAddress)
+	
+	return "Save Slot " .. slot .. "\t\t" .. utils.floatToStr(progress, {afterDecimal=2}) .. "%"
+end
+
+-- total attacks
+function Jak2:totalAttacks()
+
+	local attackAddress = 0x20622F94
+	local attacks = utils.readIntLE(attackAddress, 4)
+	
+	return "Total No. of Attacks:\t" .. attacks
+end
+
+-- total eco collected
+function Jak2:totalEcoCollected()
+
+	local ecoAddress = 0x20622F2C
+	local eco = utils.readFloatLE(ecoAddress)
+	
+	return "Total Eco Collected:\t" .. eco
+end
 
 return Jak2
