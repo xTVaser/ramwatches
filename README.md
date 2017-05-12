@@ -2,9 +2,10 @@
 Displays for ramwatch CheatEngine plugin https://github.com/yoshifan/ram-watch-cheat-engine
 
 # Installation
-Requires Cheat Engine 6.6 for Lua 5.3 features.  
-Clone the repository and point the Cheat Table lua script to the directory.  
-In cheat engine go to Table > Show Cheat Table Lua Script and paste the following  
+* Requires Cheat Engine 6.6 for Lua 5.3 features.  
+* Clone the repository and note the location  
+* In cheat engine go to Table > Show Cheat Table Lua Script and paste the following  
+* Point the Cheat Table lua script to the directory.  
 ```lua
 RWCEMainDirectory = [[E:\Emulator\ramwatches]]
 
@@ -19,7 +20,7 @@ local loaderFile, errorMessage = loadfile(RWCEMainDirectory .. '/loader.lua')
 if errorMessage then error(errorMessage) end
 loaderFile()
 ```
-Also rename to the respective layout and game module name.
+* Also rename to the respective layout and game module name.
 
 # Screenshot
 Jak 2 RAMwatch  
