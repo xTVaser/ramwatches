@@ -22,5 +22,5 @@ loaderFile()
 Also rename to the respective layout and game module name.
 
 # Screenshot
-Jak 2 RAMwatch
+Jak 2 RAMwatch  
 ![alt text](http://i.imgur.com/AZTq9UA.png "Jak 2 Display")
