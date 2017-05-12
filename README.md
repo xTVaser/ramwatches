@@ -3,8 +3,8 @@ Displays for ramwatch CheatEngine plugin https://github.com/yoshifan/ram-watch-c
 
 # Installation
 Requires Cheat Engine 6.6 for Lua 5.3 features.  
-Clone the repository and point the Cheat Table lua script to the directory.
-In cheat engine go to Table > Show Cheat Table Lua Script  
+Clone the repository and point the Cheat Table lua script to the directory.  
+In cheat engine go to Table > Show Cheat Table Lua Script and paste the following  
 ```lua
 RWCEMainDirectory = [[E:\Emulator\ramwatches]]
 
