@@ -222,7 +222,7 @@ function Jak2:unlockedClearance()
 	if yellowFlag ~= 0 then
 		finalString = finalString .. "Yellow  " end
 	if redFlag == 0 and greenFlag == 0 and yellowFlag == 0 then
-		finalString = finalString .. "  ---" end
+		finalString = finalString .. "---" end
 		
 	return finalString
 end
@@ -311,9 +311,45 @@ function Jak2:unlockedDarkJak()
 	return finalString
 end
 
--- Hack that isnt nessecary?
-function Jak2:updateAddresses()
-  
+-- Objectives
+-- Current Score
+function Jak2:currentScore()
+	
+	local currentScoreAddress = 0x20622F68
+	local currentScoreValue = utils.readFloatLE(currentScoreAddress)
+	
+	return "Score:\t\t\t" .. utils.floatToStr(currentScoreValue, {afterDecimal=0})
 end
+
+-- Current Objective Count
+function Jak2:currentObjectiveCount()
+
+	local currentObjectiveCountAddress = 0x20622F8C
+	local countValue = utils.readFloatLE(currentObjectiveCountAddress)
+	
+	return "Objective Count:\t" .. utils.floatToStr(countValue, {afterDecimal=0})
+end
+
+-- Current Mission Timer
+function Jak2:currentMissionTimer()
+
+	local currentTimerAddress = 0x20622F78
+	local currentTime = utils.readIntLE(currentTimerAddress, 4)
+	
+	-- 300 units per second
+	local currentTime = currentTime / 300.0
+	
+	return "Objective Timer:\t" .. utils.floatToStr(currentTime, {afterDecimal=2}) .. "s"
+end
+
+-- Completed Missions
+function Jak2:completedMissions()
+
+	local completedMissionsAddress = 0x20622F10
+	local completedMissions = utils.readFloatLE(completedMissionsAddress)
+
+	return "Completed Objectives:\t" .. utils.floatToStr(completedMissions, {afterDecimal=0})
+end
+
 
 return Jak2

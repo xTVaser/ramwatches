@@ -50,12 +50,15 @@ function layouts.Jak2Layout:init()
 	self:addItem(self.game.unlockedDarkJak)
 	
 	self:addLabel{fontSize=fontSizeHeader, fontName=headerFontName, fontColor=headerFontColor}
-	self:addItem("Game Info")
-	
-	
+	self:addItem("Objectives")
+	self:addLabel{fontSize=fontSize, fontName=contentFontName}
+	self:addItem(self.game.currentScore)
+	self:addItem(self.game.currentObjectiveCount)
+	self:addItem(self.game.currentMissionTimer)
+	self:addItem(self.game.completedMissions)
 	
 	self:addLabel{fontSize=fontSizeHeader, fontName=headerFontName, fontColor=headerFontColor}
-	self:addItem("Objectives")
+	self:addItem("Game Info")
 	
 	self:addLabel{fontSize=fontSizeHeader, fontName=headerFontName, fontColor=headerFontColor}
 	self:addItem("Boss Information")
